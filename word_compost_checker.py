@@ -31,7 +31,9 @@ def main():
         for key in compost.keys():
             word_list.write(f"{key}\n")
         word_list.close()
-    print("Duplicated words have been removed.")
+        print("Duplicated words have been removed.")
+    else:
+        print("Exiting program.")
 
 main()
 
